@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 #from math import *
 import numpy as np
 import pandas as pd
-from PIL import Image
+#from PIL import Image
 
 # finding the maximum angle routine
 
@@ -147,8 +147,8 @@ def projectile(yo,vo,angle):
     
 
 
-image = Image.open('projectile.jpg')
-st.image(image)
+#image = Image.open('projectile.jpg')
+#st.image(image)
 
 st.write("""
 ## 2- Dimensional Projectile Motion Simulation
